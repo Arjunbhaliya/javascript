@@ -1,0 +1,28 @@
+//if 
+let tempreture = 35
+if (tempreture === 40){
+    console.log("tempreture is less then 50")
+}else{
+    console.log("greater than 50")
+}
+console.log("executed")
+// for comperision <,>,<=,>=, == , != , ===(type check) , !==
+
+score = 200
+if (score > 100){
+    const power = "fly" // dont use var (become global scope)
+    console.log(`user have power : ${power}`)
+}
+
+// if(true) console.log("sorthand")
+
+// if(){
+// }else if(){
+// }else{}
+
+if(true && true && 2==2){
+    console.log("and")
+}
+if(true || false){
+    console.log("or")
+}
